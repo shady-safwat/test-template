@@ -17,7 +17,7 @@ let menu_icon = document.querySelector('.menu ');
 let menuBr = document.querySelector('.slide-menu');
 
 window.addEventListener('scroll',function(){
-    if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+    if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
         menu_icon.style.display = 'none';
         menuBr.style.display = 'none';
         navBar.style.display = 'block';
@@ -42,7 +42,7 @@ menuBar.addEventListener('click',function(){
 // when click on show more show more images and when click on show less hide images
 let showBtn = document.querySelector('#show');
 let lessBtn = document.querySelector('#less');
-let showImages = document.querySelectorAll('.our-work .work .work-images .show');
+let showImages = document.querySelectorAll('.our-work .work .work-images .extra');
 
 showBtn.addEventListener('click',function(){
     for(let i=0; i<showImages.length; i++){

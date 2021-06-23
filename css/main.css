@@ -88,6 +88,7 @@ body{
     height: 10%;
     line-height: 35px;
     background-color: rgba(0,0,0,0.7);
+    display: none;
 }
 .navbar .navbar-brand{
     color: var(--font-color-white);
@@ -202,7 +203,7 @@ body{
     height: 100%;
     background-color: var(--font-color-orange);
     color: var(--font-color-white);
-    opacity: 0;
+    opacity:0;
     margin: auto 0;
     transition: all .3s ease-in-out;
 }
@@ -213,6 +214,9 @@ body{
 .our-work .work .work-images img{
     height: 40vh;
     width:100%;
+}
+.our-work .work .work-images .extra{
+    display: none;
 }
 /* button our-work */
 .button .show{
@@ -542,13 +546,13 @@ and (orientation: portrait) {
         font-size: 10px;
         width:90px;
         height: 30px;
-        line-height: 20px;
+        line-height: 30px;
     }
     .button .less{
         font-size: 10px;
         width:90px;
         height: 30px;
-        line-height: 20px;
+        line-height: 30px;
     }
     /* end our-work */
 
